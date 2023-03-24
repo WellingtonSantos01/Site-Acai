@@ -1,0 +1,1 @@
+(function(){const elEditorRight=document.querySelector('.image-editor-right');const elBtnSetting=document.getElementById('btn-setting');if(elBtnSetting){elBtnSetting.addEventListener('click',e=>{elEditorRight.classList.toggle('on');});}})();

@@ -1,0 +1,3 @@
+(function(){$('.plan-item').on('click',function(){if($(this).hasClass('active')){return;}
+let plan=$(this).attr('data-plan');$('.plan-item').each(function(){if(plan=='yearly'){$('.price-item').addClass('yearly');}else{$('.price-item').removeClass('yearly');}
+if($(this).hasClass('active')){$(this).removeClass('active');}else{$(this).addClass('active');}});});})();
